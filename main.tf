@@ -13,7 +13,7 @@ resource "aws_instance" "ec2_instance" {
 } 
 
 resource "aws_security_group" "demo-sg" {
-  name = “sec-grp”
+  name = "sec-grp"
   description = "Allow HTTP and SSH traffic via Terraform"
 
   ingress {
